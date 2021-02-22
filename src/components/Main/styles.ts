@@ -22,7 +22,7 @@ export const ContentWrapper = styled.div`
     padding: 16px;
     margin: 0 16px;
     border-radius: 1rem;
-    box-shadow: 2px 2px 10px 2px rgba(60, 211, 193, 0.45);
+    box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.45);
   }
 `
 
