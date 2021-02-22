@@ -1,4 +1,6 @@
 
+# This project is bootstrapped by React Avançado Boilerplate
+
 ![React Avançado](https://raw.githubusercontent.com/React-Avancado/boilerplate/master/public/img/logo-gh.svg)
 
 This is a [Next.js](https://nextjs.org/) boilerplate to be used in a course called [React Avançado](https://reactavancado.com.br/).
@@ -16,6 +18,8 @@ This project uses lot of stuff as:
 - [Eslint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
 - [Husky](https://github.com/typicode/husky)
+
+This project is my personal links page to be my main page when I share anything with anybody. All my information is only a click away.
 
 ## Getting Started
 
