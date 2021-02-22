@@ -6,14 +6,16 @@ export default {
   component: Main,
   args: {
     title: 'title default',
-    description: 'description default'
+    description: 'description default',
+    social: 'social default'
   }
 } as Meta
 
 export const Basic: Story = (args) => <Main {...args} />
 Basic.args = {
   title: 'title basic',
-  description: 'description basic'
+  description: 'description basic',
+  social: 'social basic'
 }
 
 export const Default: Story = (args) => <Main {...args} />
