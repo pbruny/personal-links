@@ -35,7 +35,7 @@ const Main = ({
         />
         <Link
           title="Email"
-          path="https://twitter.com/PauloBruny"
+          path="mailto:paulobruny@gmail.com"
           icon={faEnvelope}
         />
         <Link

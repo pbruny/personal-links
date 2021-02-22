@@ -265,7 +265,7 @@ exports[`<Main /> should render the heading 1`] = `
       >
         <a
           class="c8"
-          href="https://twitter.com/PauloBruny"
+          href="mailto:paulobruny@gmail.com"
           rel="noopener"
           target="_blank"
         >
