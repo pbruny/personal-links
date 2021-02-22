@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.li`
-  padding: 0.8rem 20rem;
   min-width: 26rem;
   max-width: 50rem;
   margin: 2rem;
@@ -15,10 +14,6 @@ export const Wrapper = styled.li`
   &:hover {
     background: rgba(255, 101, 193, 0.85);
   }
-
-  @media screen and (max-width: 32rem) {
-    padding: 0.8rem;
-  }
 `
 
 export const Link = styled.a`
@@ -29,11 +24,16 @@ export const Link = styled.a`
   color: white;
   font-weight: 400;
   font-size: 1.8rem;
+  padding: 0.8rem 20rem;
 
   svg {
     position: absolute;
     left: 3rem;
     max-width: 2.4rem;
     max-height: 2.4rem;
+  }
+
+  @media screen and (max-width: 32rem) {
+    padding: 0.8rem;
   }
 `
