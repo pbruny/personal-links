@@ -19,7 +19,7 @@ This project uses lot of stuff as:
 - [Prettier](https://prettier.io/)
 - [Husky](https://github.com/typicode/husky)
 
-This project is my personal links page to be my main page when I share anything with anybody. All my information is only a click away.
+This project is my personal links page to be my main page when I share anything with anybody. All my information is only a [click away](https://personal-links.vercel.app/).
 
 ## Getting Started
 
