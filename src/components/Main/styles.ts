@@ -23,10 +23,15 @@ export const Wrapper = styled.main`
 
 export const ContentWrapper = styled.div`
   @media screen and (min-width: 768px) {
+    margin-bottom: 3rem;
     padding: 16px;
     margin: 0 16px;
     border-radius: 1rem;
     box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.45);
+  }
+
+  @media screen and (max-height: 768px) {
+    margin-bottom: 3rem;
   }
 `
 
