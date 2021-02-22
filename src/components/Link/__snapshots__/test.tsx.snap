@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Link /> should render the heading 1`] = `
+.c0 {
+  padding: 0.8rem 20rem;
+  min-width: 26rem;
+  max-width: 50rem;
+  margin: 2rem;
+  background: rgba(255,101,193,1);
+  border-radius: 1.6rem;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  position: relative;
+  list-style: none;
+  cursor: pointer;
+}
+
+.c0:hover {
+  background: rgba(255,101,193,0.85);
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+
+.c1 svg {
+  position: absolute;
+  left: 3rem;
+  max-width: 2.4rem;
+  max-height: 2.4rem;
+}
+
+@media screen and (max-width:32rem) {
+  .c0 {
+    padding: 0.8rem;
+  }
+}
+
+<li
+  class="c0"
+  title="Title"
+>
+  <a
+    class="c1"
+    href="https://google.com"
+    rel="noopener"
+    target="_blank"
+  >
+    <svg
+      aria-hidden="true"
+      class="svg-inline--fa fa-file fa-w-12 "
+      data-icon="file"
+      data-prefix="fas"
+      focusable="false"
+      role="img"
+      viewBox="0 0 384 512"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M224 136V0H24C10.7 0 0 10.7 0 24v464c0 13.3 10.7 24 24 24h336c13.3 0 24-10.7 24-24V160H248c-13.2 0-24-10.8-24-24zm160-14.1v6.1H256V0h6.1c6.4 0 12.5 2.5 17 7l97.9 98c4.5 4.5 7 10.6 7 16.9z"
+        fill="currentColor"
+      />
+    </svg>
+     
+    Title
+  </a>
+</li>
+`
