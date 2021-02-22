@@ -15,6 +15,10 @@ export const Wrapper = styled.main`
   @media screen and (max-width: 30rem) {
     justify-content: flex-start;
   }
+
+  @media screen and (max-height: 768px) {
+    justify-content: flex-start;
+  }
 `
 
 export const ContentWrapper = styled.div`
